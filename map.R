@@ -2,9 +2,12 @@ library(ggmap)
 library(ggplot2)
 library(ggrepel)
 
-# Get data:
+# Get Data for Washington Map:
 wa <- get_googlemap(center = "soap lake wa", zoom = 6, size = c(400, 250), maptype = "roadmap")
 
+# Creates base map, to be layered on later with ski resorts.
+base.map <- ggmap(wa) + ggtitle("Ski Resort Conditions in WA:") + 
+  theme(plot.title = element_text(hjust = 0.5, size = 15))
 
 # Creates map of WA, & points of ski resorts:
 conditions.report <- ggmap(wa) + 

@@ -6,5 +6,4 @@ weather.frame <- create.weather.frame(coord.frame)
 
 source("./map.R")
 
-
 print(conditions.report)

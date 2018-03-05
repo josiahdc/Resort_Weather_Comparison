@@ -16,5 +16,3 @@ conditions.report <- ggmap(wa) +
   guides(fill=FALSE, alpha=FALSE, size=FALSE)  + ggtitle("Ski Resort Conditions in WA:") + theme(plot.title = element_text(hjust = 0.5, size = 30)) +
   scale_fill_gradient(low = "red", high = "green", limits=c(1, 10)) +
   scale_color_gradient(low = "red", high = "green",limits=c(1, 10))
-
-print(conditions.report)

@@ -1,3 +1,5 @@
+# What our app does:
+
 Weather conditions play a huge part in deciding which mountain to ski. While skiing on fresh powder is an incredible experience, a rainy day can spell doom for any ski trip. Because of this, it’s important to compare the weather at each mountain being considered.
 
 We created an app that gathers weather data from each mountain into

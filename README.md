@@ -8,3 +8,5 @@ is the most optimal for skiiing and snowboarding.
 
 We will be using the Dark Sky API, to gather the weather data of each resort. Specifically, it will explain the weather status (rain, snow, neutral), the amount (inches) of snow, and the visibility of
 each resort.
+
+The app can be found [here](https://josiahdc.shinyapps.io/Resort_Weather_Comparison)

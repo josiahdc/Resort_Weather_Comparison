@@ -3,7 +3,7 @@ library(httr)
 
 getWeather <- function(coords){
   darkSky.base.url <- "https://api.darksky.net/forecast/"
-  darkSky.key <- api.key
+  darkSky.key <- ""
   response <- GET(paste0(darkSky.base.url, darkSky.key, "/", coords))
   body <- content(response, "text")
   rep.data <- fromJSON(body)

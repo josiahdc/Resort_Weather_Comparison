@@ -1,7 +1,7 @@
 library(shiny)
 
 #assign dark sky key to api.key
-source("./api_key.R")
+source("./apicall.R")
 
 # get the data
 source("./processing.R")

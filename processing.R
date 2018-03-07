@@ -48,7 +48,7 @@ create.weather.frame <- function(coord.frame) {
 
 # assigns the resort a rating based on weather conditions
 assign.rating <- function(temp, vis, clouds, precip, precip.type, wind) {
-  rating <- 10
+  rating <- 7
   
   # test if above freezing
   if(!is.na(temp) & temp > 32) {

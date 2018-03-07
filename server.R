@@ -26,7 +26,7 @@ shinyServer(function(input, output) {
       sentance.four <- paste("Visibility is clear out to", working.row$visibility, "miles.")
     }
     sentance.five <- paste("Winds are blowing at", working.row$wind_speed, "miles per hour.")
-    Sentance.six <- paste("Overall conditions are rated", working.row$rating, "out of 10.")
+    Sentance.six <- paste("Overall conditions are rated", working.row$rating, "out of 7.")
     return(
       paste(sentance.one, sentance.two, sentance.three, sentance.four, sentance.five, Sentance.six)
     )

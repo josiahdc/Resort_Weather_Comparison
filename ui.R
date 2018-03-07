@@ -24,12 +24,17 @@ shinyUI(
       )
     ),
     tabPanel("Information",
-      h3("The Rating is calculated from the weather information presented on the map page. Every Resort starts
-          with a rating of 10, and loses a point for having unideal conditions. If the weather is above freezing,
-          the resort loses a point. If visibility is poor, the resort looses a point. If there is cloud cover,
-          the resort loses a point. If it is snowing hard, the resort loses a point. If it is raining, the resort
-          loses two points (if it is raining hard, the resort loses three points instead). If there are strong
-          winds, the resort loses a point.")
+      h2("What is it?"),
+      p("This app pulls current weather conditions for ski resorts across Washington from the Dark Sky weather
+          API. Each resort is assigned a score based on these conditions to allow for quick and effective
+          comparison."),
+      h2("How is the resort rating calculated?"),
+      p("The rating is calculated from the weather information presented on the map page. Every resort starts
+          with a rating of seven, and loses a point for having unideal conditions. If the weather is above
+          freezing, the resort loses a point. If visibility is poor, the resort loses a point. If there is 
+          cloud cover, the resort loses a point. If it is snowing hard, the resort loses a point. If it is
+          raining, the resort loses two points (if it is raining hard, the resort loses three points instead).
+          If there are strong winds, the resort loses a point.")
     )
   )
 )
